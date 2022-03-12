@@ -1,0 +1,157 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+  
+}
+
+body {
+  background: #343a40;
+}
+
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+
+ .footer{
+  background-color: rgba(11, 112, 45, 0.658);
+  font:caption;
+  height: "50px";
+  margin:0px auto;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+} 
+
+.footer-icons a{
+	display: inline-block;
+  margin-top: 25px;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  rgba(11, 112, 45, 0.658);
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.form-control {
+  background-color: #f1f1f3;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  color: #d1d2d2;
+  padding: 0.7em 1em;
+}
+
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-image: url("./vegbag.png");
+  background-size: cover;
+  height: 500px;
+  color: rgb(10, 7, 0);
+ text-align: justify;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1516211697506-8360dbcfe9a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+
+  /* Control the height of the image */
+  min-height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
